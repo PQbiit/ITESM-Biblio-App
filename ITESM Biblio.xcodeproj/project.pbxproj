@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971E0DD41CE7A920001A48FD /* BiblioLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 971E0DD31CE7A91F001A48FD /* BiblioLogo.png */; };
+		971E0DD61CE7ABA2001A48FD /* DistritoTec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 971E0DD51CE7ABA1001A48FD /* DistritoTec.jpg */; };
+		971E0DDA1CE7AECE001A48FD /* TourIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 971E0DD91CE7AECE001A48FD /* TourIcon@2x.png */; };
+		971E0DDC1CE7B527001A48FD /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 971E0DDB1CE7B526001A48FD /* SplashScreen.png */; };
+		97544BE61CE656A400DEA861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97544BE51CE656A400DEA861 /* AppDelegate.swift */; };
+		97544BE81CE656A400DEA861 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97544BE71CE656A400DEA861 /* FirstViewController.swift */; };
+		97544BEA1CE656A400DEA861 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97544BE91CE656A400DEA861 /* SecondViewController.swift */; };
+		97544BED1CE656A400DEA861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97544BEB1CE656A400DEA861 /* Main.storyboard */; };
+		97544BEF1CE656A400DEA861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97544BEE1CE656A400DEA861 /* Assets.xcassets */; };
+		97544BF21CE656A400DEA861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97544BF01CE656A400DEA861 /* LaunchScreen.storyboard */; };
+		97544BFD1CE656A700DEA861 /* ITESM_BiblioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97544BFC1CE656A700DEA861 /* ITESM_BiblioTests.swift */; };
+		97544C081CE656A700DEA861 /* ITESM_BiblioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97544C071CE656A700DEA861 /* ITESM_BiblioUITests.swift */; };
+		97544C1A1CE65D9C00DEA861 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97544C161CE65D9C00DEA861 /* Fabric.framework */; };
+		97544C1B1CE65D9C00DEA861 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97544C171CE65D9C00DEA861 /* TwitterKit.framework */; };
+		97544C1C1CE65D9C00DEA861 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97544C181CE65D9C00DEA861 /* TwitterKitResources.bundle */; };
+		97544C1D1CE65D9C00DEA861 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97544C191CE65D9C00DEA861 /* TwitterCore.framework */; };
+		97544C261CE6A45A00DEA861 /* TEC.mov in Resources */ = {isa = PBXBuildFile; fileRef = 97544C251CE6A45A00DEA861 /* TEC.mov */; };
+		97544C2B1CE6A5AF00DEA861 /* LegacyIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97544C291CE6A5AF00DEA861 /* LegacyIcon@2x.png */; };
+		97544C2E1CE6A5C100DEA861 /* SignInImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 97544C2D1CE6A5C100DEA861 /* SignInImage.png */; };
+		97544C301CE6B8E400DEA861 /* LogOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 97544C2F1CE6B8E400DEA861 /* LogOut.png */; };
+		97544C321CE6C12800DEA861 /* TweetImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 97544C311CE6C12800DEA861 /* TweetImage.png */; };
+		97544C341CE6C8CA00DEA861 /* TweetFeed.png in Resources */ = {isa = PBXBuildFile; fileRef = 97544C331CE6C8CA00DEA861 /* TweetFeed.png */; };
+		97544C361CE6DF2C00DEA861 /* SearchTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97544C351CE6DF2C00DEA861 /* SearchTimelineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97544BF91CE656A700DEA861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97544BDA1CE656A200DEA861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97544BE11CE656A300DEA861;
+			remoteInfo = "ITESM Biblio";
+		};
+		97544C041CE656A700DEA861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97544BDA1CE656A200DEA861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97544BE11CE656A300DEA861;
+			remoteInfo = "ITESM Biblio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		971E0DD31CE7A91F001A48FD /* BiblioLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BiblioLogo.png; sourceTree = "<group>"; };
+		971E0DD51CE7ABA1001A48FD /* DistritoTec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DistritoTec.jpg; sourceTree = "<group>"; };
+		971E0DD91CE7AECE001A48FD /* TourIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TourIcon@2x.png"; sourceTree = "<group>"; };
+		971E0DDB1CE7B526001A48FD /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
+		97544BE21CE656A300DEA861 /* ITESM Biblio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITESM Biblio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97544BE51CE656A400DEA861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97544BE71CE656A400DEA861 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		97544BE91CE656A400DEA861 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		97544BEC1CE656A400DEA861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97544BEE1CE656A400DEA861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97544BF11CE656A400DEA861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97544BF31CE656A400DEA861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97544BF81CE656A700DEA861 /* ITESM BiblioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITESM BiblioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97544BFC1CE656A700DEA861 /* ITESM_BiblioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITESM_BiblioTests.swift; sourceTree = "<group>"; };
+		97544BFE1CE656A700DEA861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97544C031CE656A700DEA861 /* ITESM BiblioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITESM BiblioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97544C071CE656A700DEA861 /* ITESM_BiblioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITESM_BiblioUITests.swift; sourceTree = "<group>"; };
+		97544C091CE656A700DEA861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97544C161CE65D9C00DEA861 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		97544C171CE65D9C00DEA861 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = SOURCE_ROOT; };
+		97544C181CE65D9C00DEA861 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = SOURCE_ROOT; };
+		97544C191CE65D9C00DEA861 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = SOURCE_ROOT; };
+		97544C251CE6A45A00DEA861 /* TEC.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TEC.mov; sourceTree = "<group>"; };
+		97544C291CE6A5AF00DEA861 /* LegacyIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LegacyIcon@2x.png"; sourceTree = "<group>"; };
+		97544C2D1CE6A5C100DEA861 /* SignInImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignInImage.png; sourceTree = "<group>"; };
+		97544C2F1CE6B8E400DEA861 /* LogOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogOut.png; sourceTree = "<group>"; };
+		97544C311CE6C12800DEA861 /* TweetImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TweetImage.png; sourceTree = "<group>"; };
+		97544C331CE6C8CA00DEA861 /* TweetFeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TweetFeed.png; sourceTree = "<group>"; };
+		97544C351CE6DF2C00DEA861 /* SearchTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTimelineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97544BDF1CE656A300DEA861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97544C1A1CE65D9C00DEA861 /* Fabric.framework in Frameworks */,
+				97544C1D1CE65D9C00DEA861 /* TwitterCore.framework in Frameworks */,
+				97544C1B1CE65D9C00DEA861 /* TwitterKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97544BF51CE656A700DEA861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97544C001CE656A700DEA861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97544BD91CE656A200DEA861 = {
+			isa = PBXGroup;
+			children = (
+				97544BE41CE656A400DEA861 /* ITESM Biblio */,
+				97544BFB1CE656A700DEA861 /* ITESM BiblioTests */,
+				97544C061CE656A700DEA861 /* ITESM BiblioUITests */,
+				97544BE31CE656A300DEA861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97544BE31CE656A300DEA861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97544BE21CE656A300DEA861 /* ITESM Biblio.app */,
+				97544BF81CE656A700DEA861 /* ITESM BiblioTests.xctest */,
+				97544C031CE656A700DEA861 /* ITESM BiblioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97544BE41CE656A400DEA861 /* ITESM Biblio */ = {
+			isa = PBXGroup;
+			children = (
+				97544C161CE65D9C00DEA861 /* Fabric.framework */,
+				97544C171CE65D9C00DEA861 /* TwitterKit.framework */,
+				97544C181CE65D9C00DEA861 /* TwitterKitResources.bundle */,
+				97544C191CE65D9C00DEA861 /* TwitterCore.framework */,
+				97544BE51CE656A400DEA861 /* AppDelegate.swift */,
+				97544BE71CE656A400DEA861 /* FirstViewController.swift */,
+				97544C351CE6DF2C00DEA861 /* SearchTimelineViewController.swift */,
+				97544BE91CE656A400DEA861 /* SecondViewController.swift */,
+				97544BEB1CE656A400DEA861 /* Main.storyboard */,
+				97544C251CE6A45A00DEA861 /* TEC.mov */,
+				971E0DD31CE7A91F001A48FD /* BiblioLogo.png */,
+				971E0DD51CE7ABA1001A48FD /* DistritoTec.jpg */,
+				97544C2D1CE6A5C100DEA861 /* SignInImage.png */,
+				97544C2F1CE6B8E400DEA861 /* LogOut.png */,
+				97544C331CE6C8CA00DEA861 /* TweetFeed.png */,
+				971E0DDB1CE7B526001A48FD /* SplashScreen.png */,
+				971E0DD91CE7AECE001A48FD /* TourIcon@2x.png */,
+				97544C311CE6C12800DEA861 /* TweetImage.png */,
+				97544C291CE6A5AF00DEA861 /* LegacyIcon@2x.png */,
+				97544BEE1CE656A400DEA861 /* Assets.xcassets */,
+				97544BF01CE656A400DEA861 /* LaunchScreen.storyboard */,
+				97544BF31CE656A400DEA861 /* Info.plist */,
+			);
+			path = "ITESM Biblio";
+			sourceTree = "<group>";
+		};
+		97544BFB1CE656A700DEA861 /* ITESM BiblioTests */ = {
+			isa = PBXGroup;
+			children = (
+				97544BFC1CE656A700DEA861 /* ITESM_BiblioTests.swift */,
+				97544BFE1CE656A700DEA861 /* Info.plist */,
+			);
+			path = "ITESM BiblioTests";
+			sourceTree = "<group>";
+		};
+		97544C061CE656A700DEA861 /* ITESM BiblioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97544C071CE656A700DEA861 /* ITESM_BiblioUITests.swift */,
+				97544C091CE656A700DEA861 /* Info.plist */,
+			);
+			path = "ITESM BiblioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97544BE11CE656A300DEA861 /* ITESM Biblio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97544C0C1CE656A700DEA861 /* Build configuration list for PBXNativeTarget "ITESM Biblio" */;
+			buildPhases = (
+				97544BDE1CE656A300DEA861 /* Sources */,
+				97544BDF1CE656A300DEA861 /* Frameworks */,
+				97544BE01CE656A300DEA861 /* Resources */,
+				97544C151CE65CE500DEA861 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ITESM Biblio";
+			productName = "ITESM Biblio";
+			productReference = 97544BE21CE656A300DEA861 /* ITESM Biblio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97544BF71CE656A700DEA861 /* ITESM BiblioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97544C0F1CE656A700DEA861 /* Build configuration list for PBXNativeTarget "ITESM BiblioTests" */;
+			buildPhases = (
+				97544BF41CE656A700DEA861 /* Sources */,
+				97544BF51CE656A700DEA861 /* Frameworks */,
+				97544BF61CE656A700DEA861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97544BFA1CE656A700DEA861 /* PBXTargetDependency */,
+			);
+			name = "ITESM BiblioTests";
+			productName = "ITESM BiblioTests";
+			productReference = 97544BF81CE656A700DEA861 /* ITESM BiblioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97544C021CE656A700DEA861 /* ITESM BiblioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97544C121CE656A700DEA861 /* Build configuration list for PBXNativeTarget "ITESM BiblioUITests" */;
+			buildPhases = (
+				97544BFF1CE656A700DEA861 /* Sources */,
+				97544C001CE656A700DEA861 /* Frameworks */,
+				97544C011CE656A700DEA861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97544C051CE656A700DEA861 /* PBXTargetDependency */,
+			);
+			name = "ITESM BiblioUITests";
+			productName = "ITESM BiblioUITests";
+			productReference = 97544C031CE656A700DEA861 /* ITESM BiblioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97544BDA1CE656A200DEA861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luis Alfonso Arriaga Quezada";
+				TargetAttributes = {
+					97544BE11CE656A300DEA861 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G62L6445B6;
+					};
+					97544BF71CE656A700DEA861 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G62L6445B6;
+						TestTargetID = 97544BE11CE656A300DEA861;
+					};
+					97544C021CE656A700DEA861 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G62L6445B6;
+						TestTargetID = 97544BE11CE656A300DEA861;
+					};
+				};
+			};
+			buildConfigurationList = 97544BDD1CE656A200DEA861 /* Build configuration list for PBXProject "ITESM Biblio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97544BD91CE656A200DEA861;
+			productRefGroup = 97544BE31CE656A300DEA861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97544BE11CE656A300DEA861 /* ITESM Biblio */,
+				97544BF71CE656A700DEA861 /* ITESM BiblioTests */,
+				97544C021CE656A700DEA861 /* ITESM BiblioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97544BE01CE656A300DEA861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971E0DDC1CE7B527001A48FD /* SplashScreen.png in Resources */,
+				97544C1C1CE65D9C00DEA861 /* TwitterKitResources.bundle in Resources */,
+				971E0DD41CE7A920001A48FD /* BiblioLogo.png in Resources */,
+				97544C301CE6B8E400DEA861 /* LogOut.png in Resources */,
+				97544C321CE6C12800DEA861 /* TweetImage.png in Resources */,
+				97544C2B1CE6A5AF00DEA861 /* LegacyIcon@2x.png in Resources */,
+				971E0DDA1CE7AECE001A48FD /* TourIcon@2x.png in Resources */,
+				97544C2E1CE6A5C100DEA861 /* SignInImage.png in Resources */,
+				97544BF21CE656A400DEA861 /* LaunchScreen.storyboard in Resources */,
+				97544C261CE6A45A00DEA861 /* TEC.mov in Resources */,
+				97544BEF1CE656A400DEA861 /* Assets.xcassets in Resources */,
+				971E0DD61CE7ABA2001A48FD /* DistritoTec.jpg in Resources */,
+				97544BED1CE656A400DEA861 /* Main.storyboard in Resources */,
+				97544C341CE6C8CA00DEA861 /* TweetFeed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97544BF61CE656A700DEA861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97544C011CE656A700DEA861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97544C151CE65CE500DEA861 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 9bb01f2d6e30ab8eca8e98a4a31531c07d33afea 586d8c52d6dcf8effe1631cf9384a124f55a3848d877f65f76725c66b6c82e14";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97544BDE1CE656A300DEA861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97544BEA1CE656A400DEA861 /* SecondViewController.swift in Sources */,
+				97544C361CE6DF2C00DEA861 /* SearchTimelineViewController.swift in Sources */,
+				97544BE61CE656A400DEA861 /* AppDelegate.swift in Sources */,
+				97544BE81CE656A400DEA861 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97544BF41CE656A700DEA861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97544BFD1CE656A700DEA861 /* ITESM_BiblioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97544BFF1CE656A700DEA861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97544C081CE656A700DEA861 /* ITESM_BiblioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97544BFA1CE656A700DEA861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97544BE11CE656A300DEA861 /* ITESM Biblio */;
+			targetProxy = 97544BF91CE656A700DEA861 /* PBXContainerItemProxy */;
+		};
+		97544C051CE656A700DEA861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97544BE11CE656A300DEA861 /* ITESM Biblio */;
+			targetProxy = 97544C041CE656A700DEA861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97544BEB1CE656A400DEA861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97544BEC1CE656A400DEA861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97544BF01CE656A400DEA861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97544BF11CE656A400DEA861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97544C0A1CE656A700DEA861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97544C0B1CE656A700DEA861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97544C0D1CE656A700DEA861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ITESM Biblio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.PQbiit.ITESM-Biblio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97544C0E1CE656A700DEA861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ITESM Biblio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.PQbiit.ITESM-Biblio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97544C101CE656A700DEA861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ITESM BiblioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.PQbiit.ITESM-BiblioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITESM Biblio.app/ITESM Biblio";
+			};
+			name = Debug;
+		};
+		97544C111CE656A700DEA861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ITESM BiblioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.PQbiit.ITESM-BiblioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITESM Biblio.app/ITESM Biblio";
+			};
+			name = Release;
+		};
+		97544C131CE656A700DEA861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ITESM BiblioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.PQbiit.ITESM-BiblioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ITESM Biblio";
+			};
+			name = Debug;
+		};
+		97544C141CE656A700DEA861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ITESM BiblioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.PQbiit.ITESM-BiblioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ITESM Biblio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97544BDD1CE656A200DEA861 /* Build configuration list for PBXProject "ITESM Biblio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97544C0A1CE656A700DEA861 /* Debug */,
+				97544C0B1CE656A700DEA861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97544C0C1CE656A700DEA861 /* Build configuration list for PBXNativeTarget "ITESM Biblio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97544C0D1CE656A700DEA861 /* Debug */,
+				97544C0E1CE656A700DEA861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97544C0F1CE656A700DEA861 /* Build configuration list for PBXNativeTarget "ITESM BiblioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97544C101CE656A700DEA861 /* Debug */,
+				97544C111CE656A700DEA861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97544C121CE656A700DEA861 /* Build configuration list for PBXNativeTarget "ITESM BiblioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97544C131CE656A700DEA861 /* Debug */,
+				97544C141CE656A700DEA861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97544BDA1CE656A200DEA861 /* Project object */;
+}
